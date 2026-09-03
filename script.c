@@ -8,6 +8,12 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
+	int i = 400;
+
+	if (i < 200)
+	{
+		printf("no lucky\n");
+	}
 	printf("Can you see me");
 	printf("I can't see you");
 
