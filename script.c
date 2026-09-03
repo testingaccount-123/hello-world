@@ -8,6 +8,13 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
+	int i = 400;
+
+	if (i < 200)
+	{
+		printf("no lucky\n");
+	}
+
 	for (int i = 0; i < 100; i++)
 	{
 		printf("%s\n", argv[1]);	
