@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main(void)
+int main(int argc, char *argv[])
 {
-	printf("hello, world\n");
+	if (argc != 2)
+	{
+		printf("usage: script [str]\n");
+		return 1;
+	}
+	
+	printf("%s\n", argv[1]);
 	return 0;
 }
