@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
 	{
 		printf("no lucky\n");
 	}
+	printf("Can you see me");
+	printf("I can't see you");
 
 	for (int i = 0; i < 100; i++)
 	{
